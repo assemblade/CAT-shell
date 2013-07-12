@@ -20,5 +20,6 @@ public class ListCommandFactory extends AbstractCommandFactory {
         commands.put("policies", ListPolicyCommand.class);
         commands.put("users", ListUserCommand.class);
         commands.put("groups", ListGroupCommand.class);
+        commands.put("folders", ListFolderCommand.class);
     }
 }
